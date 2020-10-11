@@ -8,23 +8,23 @@ router.get("/", function(req, res) {
     // console.log("hello I'm on the start page");
  res.render("home/");
  });
- //home page
+ // Get home page
  router.get("/home", function(req,res){
      res.render("home/home");
  });
-//about page
+//Get  about page
  router.get("/about", function(req, res){
     res.render("home/about");
  });
-//contact page
+//Get contact page
  router.get("/contact", function(req, res){
     res.render("home/contact");
  });
-//services page
+//Get services page
  router.get("/services", function(req, res){
     res.render("home/services");
  });
-// project page
+//Get  project page
  router.get("/project", function(req, res){
     res.render("home/project");
  });

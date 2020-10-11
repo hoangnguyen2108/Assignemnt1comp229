@@ -1,14 +1,18 @@
 {
   "name": "nodejsapp",
   "version": "0.0.1",
-  "description": "",
+  "description": "assignment1-comp229",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app"
   },
+  "engines": {
+    "node": "12.18.3",
+    "npm": "^6.0.0"
+  },
   "author": "Nguyen Hoang long",
-  "license": "",
+  "license": "ISC",
   "dependencies": {
     "bootstrap": "^4.5.2",
     "ejs": "^3.0.1",
@@ -18,5 +22,14 @@
     "nodemon": "^2.0.4",
     "path": "^0.12.7",
     "popper": "^1.0.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoangnguyen2108/Assignemnt1comp229.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hoangnguyen2108/Assignemnt1comp229/issues"
+  },
+  "homepage": "https://github.com/hoangnguyen2108/Assignemnt1comp229#readme"
 }
